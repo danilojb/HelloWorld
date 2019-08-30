@@ -1,4 +1,4 @@
-package com.danilojb.HelloWorld
+package com.danilojb.helloworld
 
 import org.junit.Test
 import org.junit.runner.RunWith
