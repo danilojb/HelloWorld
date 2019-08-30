@@ -8,7 +8,7 @@ plugins {
 }
 
 group = "com.danilojb"
-version = "0.0.2-SNAPSHOT"
+version = "0.0.3-RELEASE"
 java.sourceCompatibility = JavaVersion.VERSION_1_8
 
 val developmentOnly by configurations.creating
