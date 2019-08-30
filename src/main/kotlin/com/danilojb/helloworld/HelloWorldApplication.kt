@@ -1,4 +1,4 @@
-package com.danilojb.HelloWorld
+package com.danilojb.helloworld
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
