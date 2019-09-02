@@ -8,10 +8,10 @@ import java.util.*
 @RestController
 class HelloWorldController{
 
-    @GetMapping("/")
+    @GetMapping("/hello")
     fun HelloWorld(
             @RequestParam(value = "nome") nome: String,
-            @RequestParam(value ="cognome") cognome: String
+            @RequestParam(value = "cognome") cognome: String
 
 
     ) = Name(nome, cognome, Date())
