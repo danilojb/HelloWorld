@@ -7,6 +7,8 @@ date=$1
 
 branches=
 
+DRY_RUN=1
+
 for branch in $(git branch -a | sed 's/^\s*//' | sed 's/^remotes\///' | grep -v 'master$'); do
   if [[ "$(git log $branch --since $date | wc -l)" -eq 0 ]]; then
     if [[ "$branch" =~ "origin/" ]]; then
