@@ -30,6 +30,3 @@ out/
 
 ### VS Code ###
 .vscode/
-
-branches_older_than.sh
-delete_branches_older_than.sh
