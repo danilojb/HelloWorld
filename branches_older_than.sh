@@ -26,7 +26,7 @@ if [[ ! -z $branches ]]; then
   else
     #git branch -D $branches
     #git push --delete origin $branches
-    
+    echo "Passou aqui deu merda!!!!!!!!!!!!!!!!!"
     # clean up locally
     #git remote prune origin
   fi
