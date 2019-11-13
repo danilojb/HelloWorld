@@ -1,4 +1,4 @@
-:# Copy of https://gist.github.com/antonio/4586456
+# Copy of https://gist.github.com/antonio/4586456
 # With a modification to collect all the branch names so we can make one git request
 # Set DRY_RUN=1 to get an echo of the command
 
